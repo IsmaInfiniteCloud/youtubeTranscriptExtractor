@@ -1,0 +1,1578 @@
+all right we will go ahead and get
+0:07
+started um as i noted this is our
+0:10
+webinar about genesis cloud queue
+0:11
+settings my name is tom with inflow and
+0:13
+i will be taking you through this
+0:14
+webinar today before we get started we
+0:17
+are going to talk a little bit about
+0:18
+inflow what we can do for you and your
+0:20
+business and make sure that your voice
+0:22
+applications are working the way that
+0:23
+they they should be for your environment
+0:26
+then we're going to jump right into the
+0:27
+queue setup where we'll be talking about
+0:28
+the different facets of the cues the
+0:30
+cues portion within the admin section of
+0:33
+genesis cloud and go over the various
+0:35
+configurations that you can do within
+0:37
+those queues
+About Inflow
+0:38
+so a little bit about inflow here who is
+0:40
+inflow what can we do for you and your
+0:42
+business
+0:43
+we're a leading consulting and services
+0:44
+company enabling digital transformation
+0:46
+through cloud customer engagement
+0:48
+technologies currently have over 70
+0:50
+employees consisting of sales advisors
+0:52
+technical contacts and customer support
+0:55
+and we serve over a thousand um endpoint
+0:58
+customers from mid-market to global
+0:59
+enterprise across most verticals we like
+1:02
+to operate with integrity transparency
+1:04
+urgency and agility want to make sure
+1:05
+you get all the information you need and
+1:07
+then some for your voice application so
+1:09
+that we can make sure it's working
+1:10
+exactly the way that your business
+1:11
+desires
+1:12
+and we offer full end end capabilities
+1:14
+in ucas ccas wfm wfo analytics and other
+1:18
+customer engagement services
+1:21
+here's a quick snippet of some of the
+1:23
+customers that we do support
+1:28
+and a few of our technology partners as
+1:30
+well
+1:34
+as we go through the webinar there is a
+1:36
+q a box in your zoom application you can
+1:38
+use that to ask questions as we go
+1:40
+through at the end of the webinar i will
+1:41
+take a look and answer any questions
+1:43
+that i do see um that are in this q a
+1:45
+portion
+1:46
+if we have any questions that i cannot
+1:48
+directly answer i will make sure to get
+1:50
+your contact information so that we can
+1:52
+get you that answer before the end of
+1:54
+the business day
+1:55
+and so with that we're going to go ahead
+1:57
+and jump directly into it i'll go ahead
+1:59
+and full screen this to make it easier
+2:00
+to see
+2:02
+and as you can see we are currently in
+2:04
+the admin panel of genesis cloud and
+2:07
+what we are going to be talking about
+2:08
+today is specifically the various
+2:10
+settings within the queues that you can
+2:12
+create within genesis cloud and how to
+2:15
+configure those this is going to um be
+2:18
+focused specifically on the queue set up
+2:20
+within the contact center tab so we
+2:22
+aren't going to be going into the
+2:23
+architect portion um which is the way
+2:26
+that you actually get those calls to
+2:28
+your queues um but we're going to talk
+2:29
+about the different setups within queues
+2:31
+and what would be required as well so
+2:34
+first thing i'm going to do is i'm going
+2:35
+to find cues which is under contact
+2:36
+center if you aren't super familiar with
+2:38
+with the layout in the admin portal as
+2:40
+well you can use the search bar
+2:43
+if i start typing in cues cues will pop
+2:45
+up there as well i'm going to go ahead
+2:46
+and click into it
+2:48
+when i do
+2:49
+it's going to pop up all the cues that
+2:51
+are currently built within the
+2:53
+organization that i'm looking at as you
+2:54
+can see we have quite a few in our
+2:56
+sandbox environment we use this for a
+2:58
+lot of internal testing
+3:00
+if you're looking for a specific queue
+3:01
+you can look for them up in the top
+3:03
+right here otherwise you can search
+3:04
+through the pages in this case i will
+3:06
+look for mine
+3:07
+which will be this tom test queue and
+3:09
+we're going to talk about the different
+3:10
+things that we can do here so i'm going
+Queue Overview
+3:13
+to go ahead and click into the tom test
+3:14
+queue this is going to bring me to a
+3:16
+page with a number of different tabs
+3:17
+that we can look at for different
+3:19
+configuration options with this queue
+3:21
+now the queue is going to be how you
+3:24
+actually facilitate the actual call
+3:26
+center method of taking calls so this is
+3:28
+where you would set up your agents so
+3:31
+that they can they can pick up calls um
+3:33
+as needed as they go through the call
+3:35
+flows and it can apply not only to calls
+3:37
+but depending on your organization you
+3:39
+might use cues for chat for messaging
+3:41
+and for email as well so there's a few
+3:44
+different things that you can do with
+3:45
+cues and there's a lot of different
+3:47
+options that you have available to you
+3:50
+so
+3:51
+for starters here up at the top we've
+3:54
+got our name and description name is
+3:55
+simply going to be the name of the queue
+3:57
+this is going to be how you see it in
+3:59
+the cues tab as well as how you would
+4:01
+call the queue
+4:03
+um when you try to assign it into a flow
+4:06
+within architect you would want to know
+4:08
+this name otherwise this name is not
+4:11
+necessarily anything that you have to
+4:13
+make a um specific thing you can do
+4:15
+whatever you want within your system to
+4:17
+make sure that you know what this is to
+4:20
+go hand in hand in that with that is a
+4:22
+description if you want to give your cue
+4:23
+a description you can do that here this
+4:25
+is just a flavor text box so if i wanted
+4:27
+to for example
+4:30
+training queue for
+4:34
+webinars
+4:36
+if i put that in there that would simply
+4:37
+show up in the queues overview so i
+4:40
+could find what i'm looking for just a
+4:42
+little bit easier
+4:43
+down below that we also have our
+4:45
+division if you are familiar with
+4:47
+divisions this is a way that you can
+4:49
+logically separate your system out um
+4:52
+so that only only certain facets of your
+4:55
+system are visible to certain people so
+4:57
+for example if you have multiple uh
+4:59
+multiple sites in your system and you
+5:00
+have um
+5:02
+employees that are responsible for those
+5:04
+sites but no other sites within your
+5:06
+call center you can use divisions to
+5:08
+divide that up to make sure that your
+5:10
+users can only see what they're supposed
+5:12
+to
+5:13
+from a cue standpoint that's going to
+5:15
+simply dictate who can see the queue
+5:17
+availability and who can make changes to
+5:19
+the queue
+5:20
+for most of you this will stay in the
+5:22
+home division which is totally fine
+5:24
+and then we have after call work and
+5:26
+this is actually where the first piece
+5:28
+that many many of our customers use
+5:30
+comes into play for queue and this is
+5:33
+going to be for any type of interaction
+5:35
+that the that the queue takes whether
+5:37
+it's just a voice interaction or if you
+5:39
+are doing chat message email or you are
+5:41
+doing callbacks from that queue
+5:43
+um you have
+After Call Work
+5:45
+four different options with after call
+5:46
+work which is the time that your agents
+5:49
+get after they take a call um to finish
+5:52
+up anything that they need to do before
+5:54
+they can get back in and start receiving
+5:56
+more interactions so to talk about the
+5:58
+four different options optional just
+6:00
+allows your agent to choose whether or
+6:02
+not they want to go into after call work
+6:04
+so that they can finish up what they
+6:06
+need to do if they choose not to they're
+6:08
+placed directly back into the queue and
+6:10
+are directly available for additional
+6:12
+calls at that time um if they do place
+6:14
+themselves in after call work there is
+6:16
+no upper limit at this point so if you
+6:19
+are set to optional they can keep
+6:20
+themselves an afro call work as long as
+6:22
+they need to
+6:23
+until they are ready to start taking
+6:25
+calls again
+6:27
+mandatory discretionary is similar um
+6:31
+the mandatory portion will force your
+6:33
+agents into after call work after each
+6:35
+call however it is at their discretion
+6:38
+when they will be able to actually
+6:40
+leave after call work and start taking
+6:42
+calls again however there is no upper
+6:44
+limit again so it is on the agent to
+6:47
+decide how long they are going to remain
+6:49
+in after call work before they return to
+6:51
+the queue using mandatory and
+6:53
+discretionary method
+6:54
+the other two options are essentially
+6:57
+the same but mandatory time box will put
+7:00
+a limit on how long after call work can
+7:02
+be and that will actually apply in this
+7:05
+option here for the after call work
+7:07
+timeout which is in seconds so as an
+7:10
+example here if i have 30 seconds in
+7:12
+this box
+7:13
+then with this setup mandatory time box
+7:16
+and an after call work timeout of 30
+7:17
+seconds your agent is going to
+7:19
+automatically be placed into after call
+7:21
+work after his call is done
+7:23
+they would be able to
+7:25
+leave after call work at any time that
+7:27
+they deem appropriate however after 30
+7:30
+seconds they are automatically removed
+7:32
+from after call work and are placed back
+7:34
+into the queue
+7:35
+so that that would be an example of time
+7:37
+box here and then finally there is also
+7:39
+mandatory time box no early exit
+7:43
+and in this case
+7:45
+and you can see here it does apply to
+7:47
+voice conversations here um in this
+7:50
+particular case with the same setup your
+7:52
+agent will be placed into after call
+7:54
+work for 30 seconds they cannot leave
+7:56
+after call work and after 30 seconds
+7:58
+they would be placed back into the queue
+7:59
+so this would be essentially a mandatory
+8:02
+30-second break for them to finish up
+8:04
+whatever it is that they were doing to
+8:07
+allow allow them to be ready for their
+8:09
+next interaction
+8:12
+in addition there is this box for manual
+8:14
+assignment this allows from the
+8:16
+supervisor tab this allows um folks to
+8:20
+actually place people into the queue as
+8:21
+needed manual assignment would allow
+8:23
+that to occur with this off you would
+8:26
+have to be a member of the queue to be
+8:27
+active in the queue
+8:29
+so that would be for temporary
+8:30
+assignment for things like overflow
+8:31
+purposes
+Routing
+8:33
+and that concludes the general tab the
+8:35
+next thing we're going to go to is the
+8:36
+routing tab here the routing tab
+8:39
+can go from fairly simple to fairly
+8:42
+complex and so we're going to talk about
+8:44
+that here
+8:45
+there are three different methods of
+8:47
+routing within genesis cloud you have
+8:50
+standard routing which would simply be
+8:53
+longest idle for your agents so if you
+8:55
+have a number of agents in the queue it
+8:57
+is not looking for anything like
+8:59
+skills-based routing it isn't looking
+9:00
+for anything specific there it is just
+9:03
+looking at your pool of agents who is
+9:04
+available and is going to choose whoever
+9:06
+has been available the longest to send
+9:08
+that call to
+Bullseye Routing
+9:10
+your other options however are bullseye
+9:12
+routing and preferred agent routing
+9:13
+we're going to start with bullseye
+9:15
+routing
+9:16
+because this is a very common
+9:17
+methodology for routing within the
+9:19
+system what bullseye routing does is it
+9:21
+allows you to add
+9:23
+different um different bullseye markers
+9:26
+um or points in the system
+9:28
+where you can specify which agents
+9:30
+should get calls first
+9:32
+um and you can do things like remove
+9:34
+skills to to increase your pool of
+9:37
+agents um
+9:38
+and add multiple rings to this to to
+9:41
+kind of create an escalation and
+9:43
+overflow for your queue
+Bullseye Routing Example
+9:45
+so as an example here if i add just a
+9:47
+couple rings here um it's going to start
+9:50
+at point one which you can see is listed
+9:52
+as one and then it will move to two and
+9:54
+then three
+9:55
+and then finally it would end at four
+9:57
+and all these are configurable so for
+10:00
+example let's say i want my initial
+10:03
+agents
+10:04
+to be um to get the call for 30 seconds
+10:07
+before it moves to 0.2
+10:10
+maybe i want this to then ring for 90
+10:12
+seconds and keep in mind here
+10:14
+anything anything um that was in marker
+10:18
+one also applies to two here so once we
+10:20
+move to two
+10:21
+any agents with with bullseye two will
+10:24
+be ring as well as any agents that
+10:26
+become available under bullseye one
+10:28
+um and then finally once it gets to
+10:30
+three anything in three would be added
+10:33
+to that as well so in this particular
+10:35
+case call would come in it would ring
+10:37
+any agents marked as bullseye one for 30
+10:40
+seconds then it would ring anybody
+10:42
+anybody with bullseye 2 or bullseye 1
+10:44
+for 90 seconds and then anybody with
+10:46
+three two or one for 90 seconds and then
+10:50
+after that once it hits four
+10:52
+all agents in the queue become available
+10:54
+here so this can be used as an overflow
+10:56
+where you have some
+10:58
+um some agents that potentially can
+11:00
+handle the calls that could come into
+11:01
+the queue um or interactions for that
+11:04
+matter because it can be any other type
+11:06
+of interaction for this as well um
+11:08
+but um should not be the front line this
+11:11
+would be a way to do that in addition if
+11:13
+you do use skill based routing
+11:16
+in your system you can remove skills
+11:18
+with each of these bullseye ring exits
+11:20
+to improve the ability to take these
+11:22
+calls so for example maybe you have a
+11:24
+support queue that uses support scaling
+11:26
+um support skill the support skill would
+11:29
+be required to answer any of those calls
+11:31
+coming through the queue
+11:32
+um but maybe after on bullseye ring
+11:36
+three you would then remove that skill
+11:40
+which it looks like we don't have one
+11:42
+directly searchable but um the
+11:45
+um if you remove the skill that's no
+11:47
+longer attached to the call and queue
+11:48
+and then anybody that doesn't have the
+11:50
+skill could then pick up the call so
+11:52
+this allows you to use
+11:53
+um overflow agents that aren't
+11:55
+necessarily skilled for the for the
+11:57
+calls that they would be taking as
+11:59
+overflow just to make sure that they can
+12:00
+actually pick those calls up
+12:02
+um now um
+12:05
+this goes hand in hand with your
+12:06
+evaluation method
+12:08
+um which the default in the system is
+12:10
+going to be all skills matching if there
+12:12
+is a skill associated with the call
+12:14
+which happens via architect
+12:16
+then it looks for anybody in the queue
+12:18
+that has that skill to match um your
+12:22
+other options are best available skills
+12:24
+this is actually based on the skills
+12:26
+slider
+12:27
+that you can assign to agents so this
+12:29
+would be the star rating that you give
+12:31
+them for the skill best available skills
+12:32
+is going to take a look at the
+12:35
+agents that are available
+12:37
+that have the correct skill and then it
+12:40
+was going to prefer the agents that have
+12:42
+a higher skill level of that available
+12:45
+skill
+12:46
+and then finally there's also disregard
+12:48
+skills next agent this does this simply
+12:50
+tells the system not to care
+12:52
+if you're using a skill on the cued call
+12:54
+or not it's simply going to look for the
+12:56
+next available agent that has been idle
+12:58
+for the longest so you can use any of
+13:00
+those for whatever method you need here
+13:03
+um now
+Preferred Agent Routing
+13:05
+this is for bullseye routing there is
+13:07
+also preferred agent routing which i'm
+13:09
+going to go over briefly here this is
+13:11
+actually more architect than it is q
+13:13
+methodology
+13:14
+um however
+13:16
+what this will allow you to do is
+13:18
+configure preferred agents for specific
+13:20
+interaction types in architect and you
+13:22
+can add rings
+13:24
+for specific scores for those agents so
+13:27
+it's very similar to bullseye routing
+13:28
+and skill based routing is just another
+13:31
+way to do so and you can actually
+13:32
+combine this with standard or bullseye
+13:35
+routing as well so you can do a
+13:37
+preferred list of agents followed by
+13:38
+bullseye routing if you so desire if you
+13:41
+want more information on preferred agent
+13:42
+routing that would be covered in a later
+13:44
+course that would that would revolve
+13:46
+around architect if you have any
+13:47
+questions about it that would be a good
+13:49
+thing to contact our support team about
+Members
+13:53
+next let's go to members and this is
+13:54
+going to let me show you the bullseye by
+13:57
+routing as well so i'm actually going to
+13:58
+before we get in there i'm going to save
+14:00
+this real quick
+14:02
+and then go back to it
+Save Settings
+14:05
+which another thing to note about the
+14:07
+cues and really any tab within architect
+14:10
+or i'm sorry within genesis cloud is if
+14:12
+you go and save your settings it is
+14:14
+going to pop you back out to the main
+14:16
+page
+14:16
+let's do that so we just have two
+14:18
+available there um
+14:20
+so that is something to keep in mind
+14:22
+just make sure that you have the
+14:23
+settings in that you want to put into
+14:26
+the key
+Add New Members
+14:27
+so now that that's set up here let's go
+14:29
+ahead and go to members here and you'll
+14:31
+see i have a blank slate here i don't
+14:33
+have any members in my page at the
+14:36
+moment now to select new members i can
+14:38
+search by by specific name so if i look
+14:40
+for tom here so i've got a few wfm users
+14:43
+that i use for another training that i
+14:45
+do if i wanted to add these users to the
+14:47
+queue i could simply choose them
+14:51
+and you'll see it gets added into that
+14:52
+little box here
+14:55
+and then when i hit this little plus now
+Advanced Tab
+14:58
+all of those users are added
+15:00
+if i wanted to look a little bit harder
+15:02
+at the users that i can add i can click
+15:04
+this advanced tab this advanced tab will
+15:06
+allow me to
+15:07
+search by different different methods so
+15:10
+for example maybe they're all in an
+15:12
+official group within genesis cloud i
+15:14
+could look for that group i could look
+15:16
+for that specific role if i have
+15:19
+my users set up so that i um have their
+15:21
+manager information on their profiles
+15:23
+and i know who they report to i can do
+15:25
+that i can also look by location skill
+15:27
+or language
+15:29
+and you can use this pane to add users
+15:31
+as well so this will allow you to do um
+15:34
+very much the same thing that the search
+15:36
+by name does you can find multiple
+15:38
+people check their boxes and add
+15:40
+multiple people to the group this way as
+15:42
+well
+Bullseye
+15:44
+down below you'll see all the users that
+15:46
+i have created in in the queue here
+15:49
+and
+15:50
+there's a bullseye ring number as well
+15:52
+for each one of these users which you
+15:54
+can see i can actually manipulate
+15:56
+between one and six so you can have up
+15:58
+to six total bullseye rings within the
+16:00
+system
+16:01
+um now the um this is going to dictate
+16:04
+when they get ranked so for example if
+16:07
+wfm1 and 2 were bullseye ring one they
+16:09
+would be in that first group
+16:12
+and if three and four are set as
+16:14
+bullseye ring two they would start
+16:16
+getting rang as part of the second
+16:18
+bullseye marker so to go back to the
+16:20
+routing here in our example here
+16:24
+wfm users one and two would ring for
+16:26
+five seconds and then all four of them
+16:28
+would be able to get rang after it moves
+16:30
+to bullseye ring two
+16:32
+so that's that's how bullseye works it's
+16:34
+very very simplistic but allows you to
+16:36
+do things like set up tiers for your
+16:38
+queues so that you can have overflow
+16:40
+available
+Wrapup Codes
+16:42
+the next tab here is wrap-up codes and
+16:45
+wrap-up codes are simply the codes that
+16:47
+your agents can choose at the end of a
+16:49
+call
+16:50
+that can be used in reporting to see
+16:52
+what kind of calls are coming in
+16:55
+so for example here if i just type in
+16:58
+i'll just grab a couple of them here not
+17:01
+support request not interested and
+17:06
+not so happy customer and we'll go ahead
+17:07
+and hit the add button here
+Wrapup Codes Overview
+17:09
+this is all there is to it for wrap-up
+17:11
+codes so wrap-up codes are going to vary
+17:14
+based on
+17:15
+um the customer and what what your needs
+17:18
+are so everybody's wrapped up codes will
+17:20
+be a little bit different um these these
+17:22
+are codes that you can create yourself
+17:24
+and then you simply make them available
+17:26
+in the queue by adding them in the wrap
+17:28
+up codes tab here the end result is if i
+17:31
+get a call from this queue and uh um and
+17:35
+i get connected to it i can choose one
+17:37
+of these wrap-up codes um on the end of
+17:40
+the upon the end of the call to notate
+17:42
+what kind of call it was
+17:44
+and then reporting can be used to pull
+17:46
+this call information
+17:48
+so um this this is purely for reporting
+17:51
+and to make sure you know what kind of
+17:52
+calls are coming into your contact
+17:54
+center
+Service Level Target
+17:56
+and finally we have our different
+17:59
+interaction types so we're going to go
+18:01
+through these as well
+18:02
+voice has by far the most which makes
+18:04
+sense because there's more that can
+18:05
+happen with voice
+18:07
+so let's talk about the service level
+18:09
+and the service level target these are
+18:11
+reporting metrics and are meant to be
+18:13
+used in conjunction with performance
+18:15
+dance dashboards to see where
+18:17
+your cues lie and if you're meeting your
+18:19
+targets so the default is going to be a
+18:22
+service level of 80
+18:24
+with a cert or i'm sorry a service level
+18:26
+of 80 percent with the service level of
+18:28
+target of 20 seconds
+18:30
+what this means is the system is looking
+18:33
+to
+18:34
+see that 80 of the voice interactions
+18:37
+offered to this queue are answered
+18:38
+within 20 seconds
+18:40
+so that gives you an average service
+18:42
+level that you can be looking at for
+18:44
+your queue and the performance dashboard
+18:46
+will give you feedback on this level and
+18:48
+depending on what you configure will
+18:51
+show you whether or not you're meeting
+18:53
+your targets so this is something that
+18:55
+can be configurable
+18:56
+depending on the customer and queue need
+18:59
+um
+19:00
+80 out of 20 is a pretty common um setup
+19:03
+that we do see
+Calling Party
+19:06
+underneath here we have a calling party
+19:07
+name and a calling party number and
+19:09
+these are on the queue because in a
+19:12
+queue-based interaction setup within
+19:14
+genesis cloud
+19:16
+your agents can actually make calls on
+19:18
+behalf of their queue
+19:19
+to return calls to customers
+19:22
+when you when this is done um the
+19:25
+calling party name if you're using for
+19:27
+example genesis cloud voice um as well
+19:30
+as the calling party number that you
+19:31
+specify here is what is going to be
+19:33
+outpost when you send those calls
+19:35
+outbound now the name does have to be
+19:37
+honored by the by the carriers going and
+19:39
+end so that can that can change um
+19:42
+depending on whether or not the database
+19:45
+of the um last mile carrier to the
+19:48
+person you're calling does have the name
+19:50
+that you were sending however the
+19:51
+calling party number is consistent and
+19:53
+will be whatever you need um so the a
+19:56
+good example for this here would be
+19:59
+a number that would actually directly
+20:01
+connect the um person you called back to
+20:03
+the queue so they know that that is you
+20:06
+um so that is what these two fields are
+20:09
+for you also have an alerting timeout
+20:11
+this is how long your agents will get
+20:13
+notified that they have an incoming call
+20:15
+before it moves the next agent therefore
+20:18
+putting that agent into not responding
+20:20
+the default for this is eight seconds
+Queue Flows
+20:24
+underneath here are some um q flow and
+20:27
+default scripts that you can look for
+20:29
+for these queues the default script is
+20:33
+going to be a script that your agents
+20:35
+can look at and use for play-by-play for
+20:38
+their calls depending on your
+20:40
+organization you may or may not use
+20:42
+these scripts if you do have a script
+20:44
+that you want to use and you want it to
+20:45
+be the default for the queue no matter
+20:47
+when they get a call you can
+20:50
+put that script name into the default
+20:52
+script and it will get pulled by default
+20:54
+unless there is an architect flow that
+20:56
+overrides it
+20:58
+the same applies for the in queue flow
+21:00
+by default the enqueue flow is going to
+21:02
+use the default in queue flow within
+21:04
+architect if you have a specific enqueue
+21:07
+flow that has messaging that applies to
+21:10
+this queue you can specify it here
+21:13
+generally you will see that these
+21:15
+enqueue flows are actually called within
+21:17
+architect so this is already handled for
+21:19
+you but if you have a specific flow that
+21:22
+you would like to use for this queue
+21:23
+anytime it's reached you can put it into
+21:25
+the box here as well
+21:28
+whisper audio is simply going to let you
+21:31
+let you know when there's an incoming
+21:32
+call
+21:33
+um and if you want to use it there's a
+21:35
+whisper prompt box that you can use here
+21:37
+this will play in this will play audio
+21:39
+for an agent as a call comes in you can
+21:42
+set it up so that either whisper audio
+21:44
+plays for all agents so you can set up a
+21:46
+prompt for anybody that's getting a call
+21:48
+or if an agent is configured for auto
+21:50
+answer meaning they don't get a choice
+21:52
+whether or not they pick up the call it
+21:53
+just beeps into their headset you can
+21:54
+play whisper audio for only those agents
+21:57
+as well
+21:59
+there's also the option for voice
+22:01
+transcription
+22:03
+if you have voice transcription on for
+22:05
+your voicemails which is an
+22:07
+organization-wide setting you can turn
+22:09
+this on as well so that you will have
+22:11
+voice transcription
+Chat
+22:15
+chat is very very simple um chat is
+22:18
+going is going to refer to web chat so
+22:20
+if you're using any sort of website
+22:22
+based chat with genesis cloud and you're
+22:24
+using this queue to handle those those
+22:26
+chat messages this is going to give you
+22:29
+more service level information which you
+22:31
+can see again 80 of chat interactions
+22:33
+within 20 seconds is the default here we
+22:36
+do have a different alerting timeout
+22:37
+which is set to 30 seconds for chat to
+22:39
+give people a little bit more time to
+22:41
+handle a chat interaction and get
+22:43
+started there before it would move to
+22:44
+the next agent and then again just like
+22:47
+with voice you have a default script
+22:49
+option the default script option would
+22:51
+just allow your agent to see a visual
+22:52
+script
+22:53
+with options for them for those
+22:55
+interactions
+Messaging
+22:58
+and the same is essentially true for
+23:01
+messaging um which this is this is going
+23:03
+to be
+23:04
+more web hook messaging such as things
+23:07
+such as through sms
+23:10
+um and you can see here the service
+23:11
+level and the learning timeout are
+23:12
+exactly the same as chat you still have
+23:14
+the default script however there is also
+23:16
+an outbound sms number drop down that
+23:19
+you can use this is going to correspond
+23:21
+to an sms number that you would purchase
+23:23
+through genesis cloud and that number
+23:25
+will be used to outpost any messages
+23:27
+that you send in this format
+Email
+23:33
+email again very much the same the big
+23:36
+difference with email is going to be
+23:38
+that service level target which you can
+23:39
+see
+23:40
+is actually defaulting to 86
+23:42
+400 seconds
+23:44
+um with a much higher alerting timeout
+23:46
+of 300 seconds this is because email
+23:49
+unlike the other messaging types is
+23:51
+generally not a real-time experience so
+23:54
+this is designed to give your agents a
+23:56
+little bit more time if you are using
+23:57
+email in your queues
+23:59
+um you can obviously adjust these to
+24:01
+whatever that whatever you would like to
+24:03
+use you can specify an outbound email
+24:05
+address to send to send these um these
+24:08
+emails from um as well as a default
+24:11
+script for that as well um so if you
+24:14
+have a specific script for email you can
+24:16
+use it there if you have a specific
+24:17
+outbound address that you would like to
+24:19
+use for answering email interactions you
+24:21
+can do that as well
+24:23
+and then finally you have a callback tab
+callback
+24:26
+as well um callback is just simply an
+24:28
+interaction in which a
+24:31
+the caller has selected that they would
+24:33
+like a callback this does have to be
+24:34
+offered within architect in order for
+24:36
+that to be something that can be done
+24:38
+and just just like any of the other
+24:41
+interaction types it's it's governed by
+24:43
+its own service level and its own
+24:44
+alerting timeout um so this allows you
+24:47
+to track that and make sure that your
+24:49
+callbacks are working properly
+time in seconds
+24:52
+and so with that we got about four
+24:54
+minutes left that does cover the options
+24:57
+within the queues function within
+24:59
+genesis cloud it does look like there is
+25:03
+a couple of questions here
+25:05
+so let's go ahead and handle these in a
+25:08
+real time here
+25:10
+first one is there a maximum time in
+25:11
+seconds to define for after call work
+25:13
+there absolutely is but i can't remember
+25:15
+what it is let's find out one second
+25:17
+here
+25:20
+it looks like it might be
+25:24
+99 seconds because i can't go any
+25:26
+further
+25:30
+and it looks like it let me it looks
+25:32
+like it let me
+25:33
+define that so let me go back here
+25:37
+let's see if it'll let me do any more
+25:38
+here there we go that's why
+25:43
+apparently
+25:44
+you can go up to 900 seconds so you you
+25:47
+do have quite a bit of time you can you
+25:48
+can place here the other option you do
+25:50
+have though is you can set it to
+25:52
+discretionary to give your agents as
+25:54
+much time as they require
+discretionary
+25:57
+do the evaluation methods only apply
+25:59
+once it hits the final ring or do they
+26:01
+apply to all the rings they do apply to
+26:04
+all the rings so for example here um in
+26:07
+the routing tab if we're looking at ring
+26:10
+one which we'll just say 45 seconds just
+26:11
+to make a little easier to follow it
+26:14
+does follow the evaluation method so the
+26:16
+first thing it's going to do is it's
+26:18
+going to find the users
+26:20
+that are um that are available um that
+26:24
+have either the appropriate skill or if
+26:26
+we're doing disregard skill
+26:28
+um it would just find the longest idle
+26:31
+user if we're set to best available
+26:32
+skills though it's going to find those
+26:34
+users and then of those available users
+26:36
+it will select the user that
+26:39
+best fits the skill so it does get used
+26:41
+at all times
+26:45
+any other questions
+26:47
+all right don't see anything else coming
+26:49
+through
+26:52
+give it just a moment here
+26:54
+okay so it looks like that is all the
+26:57
+questions that we have at this point in
+26:58
+time if more questions come up after the
+27:00
+webinar as usually happens that's not a
+27:02
+problem you can always get in touch with
+27:04
+us after the fact and we can make sure
+27:05
+we get those answers to you so you can
+27:07
+always give us a call at
+27:10
+844-446-3569 or send us an email at
+27:12
+contactedinflowcommunications.com
+27:15
+just give us a general description of
+27:16
+your question we'll make sure that we
+27:18
+get the answer for you not a problem
+27:21
+and so with that that concludes our
+27:23
+webinar for today um my name is tom with
+27:26
+inflow thank you so much for taking the
+27:28
+time to join us today we do hope to see
+27:30
+you in the future and as always i hope
+27:32
+you guys have a wonderful day thanks
+27:33
+everybody have a good one bye
